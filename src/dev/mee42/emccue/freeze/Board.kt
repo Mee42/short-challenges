@@ -67,16 +67,6 @@ class Board(private val size: Int = 8) {
                     Direction.NORTH
                 )
         }
-        this[Point(3, 3)].frozenPiece =
-            Piece(
-                Team.B,
-                Direction.NORTH_EAST
-            )
-        this[Point(4, 4)].piece =
-            Piece(
-                Team.B,
-                Direction.NORTH_WEST
-            )
     }
     fun listify(): List<Pair<Point, Square>> {
         return (Point(
