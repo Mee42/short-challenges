@@ -1,3 +1,5 @@
+### Freeze Tag, a game invented for fun, by emccue
+
 - Game is played on an 8x8 board same as chess or checkers
 - There are two teams, A and B, whose pieces have a distinct color
 - Each team has 3 pieces on the board at the start of the game
